@@ -1,7 +1,7 @@
 # Angular Storybook web worker bug reproduction
 This repo is a fresh install of storybook on angular(v14). After configuring everything, it demonstrates the errors that arise as a result of using webworkers with storybook.
 
-Most of the errors take the form of typescript conflicts and typing dissatisfications. I have narrowed down the details further in **src/web-worker-stuff/caller.worker.ts**
+Most of the errors take the form of typescript conflicts and typing dissatisfications. I have narrowed down the details further in **src/app/web-worker-stuff/caller.worker.ts**
 
 Turning off this one line fixes the bug. But then we lose web worker support
 
